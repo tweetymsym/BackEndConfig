@@ -1,0 +1,12 @@
+mongodb:
+  hostname: "localhost"
+  port: "21017
+  db-name: "tweet_db"
+
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://${mongodb.hostname}:${mongodb.port}/${mongodb.db-name}"
+
+server:
+  port: "8400"
