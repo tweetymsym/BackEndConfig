@@ -1,6 +1,6 @@
 mongodb:
   hostname: "localhost"
-  port: "21017
+  port: "21017"
   db-name: "tweet_db"
 
 spring:
