@@ -1,2 +1,19 @@
 server:
   port: "8400"
+
+mongo:
+    host: "localhost"
+    port: "27017"
+    database: "tweety-db"
+    username: "tweety-user"
+    password: "tweety-pass"
+
+spring:
+    data:
+        mongodb:
+            port: ${mongo.port}
+            host: ${mongo.host}
+            database: ${mongo.database}
+            username: ${mongo.username}
+            password: ${mongo.password}
+            authentication-database: ${mongo.database}
