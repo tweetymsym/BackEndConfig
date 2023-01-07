@@ -2,11 +2,11 @@ server:
   port: "8400"
 
 mongo:
-    host: "localhost"
+    host: "mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com"
     port: "27017"
     database: "tweety-db"
     username: "tweety-user"
-    password: "tweety-pass"
+    password: "h6Jtda97kW41p823"
 
 spring:
     data:
