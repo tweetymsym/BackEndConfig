@@ -1,6 +1,9 @@
 server:
   port: "8400"
-
+username = tweety-user
+password = h6Jtda97kW41p823
+host = mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com
+database = tweety-db
 mongo:
     host: "mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com"
     port: "27017"
@@ -11,9 +14,10 @@ mongo:
 spring:
     data:
         mongodb:
-            port: ${mongo.port}
-            host: ${mongo.host}
-            database: ${mongo.database}
-            username: ${mongo.username}
-            password: ${mongo.password}
-            authentication-database: ${mongo.database}
+          port: ${mongo.port}
+#           host: ${mongo.host}
+          database: ${mongo.database}
+          username: ${mongo.username}
+          password: ${mongo.password}
+          authentication-database: ${mongo.database}
+          uri: ${mongo.host}
