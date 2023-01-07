@@ -1,9 +1,9 @@
 server:
   port: "8400"
-username = tweety-user
-password = h6Jtda97kW41p823
-host = mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com
-database = tweety-db
+# username = tweety-user
+# password = h6Jtda97kW41p823
+# host = mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com
+# database = tweety-db
 mongo:
     host: "mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com"
     port: "27017"
