@@ -5,7 +5,7 @@ server:
 # host = mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com
 # database = tweety-db
 mongo:
-    host: "mongodb+srv://db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com"
+    host: "mongodb+srv://tweety-user:h6Jtda97kW41p823@db-mongodb-nyc1-71962-6157d0c7.mongo.ondigitalocean.com/tweety-db?tls=true&authSource=admin&replicaSet=db-mongodb-nyc1-71962"
     port: "27017"
     database: "tweety-db"
     username: "tweety-user"
@@ -15,9 +15,9 @@ spring:
     data:
         mongodb:
           port: ${mongo.port}
-#           host: ${mongo.host}
-          database: ${mongo.database}
-          username: ${mongo.username}
-          password: ${mongo.password}
-          authentication-database: ${mongo.database}
+# #           host: ${mongo.host}
+#           database: ${mongo.database}
+#           username: ${mongo.username}
+#           password: ${mongo.password}
+#           authentication-database: ${mongo.database}
           uri: ${mongo.host}
